@@ -1,5 +1,4 @@
 apiVersion: backstage.io/v1alpha1
-kind:  component
 metadata:
   name: soundcheck.demo2
   description: Soundcheck Demo Component
@@ -12,3 +11,4 @@ spec:
   lifecycle: experimental
   owner: toast-infra
   system: soundcheck
+kind:  component
