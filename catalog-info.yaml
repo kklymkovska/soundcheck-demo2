@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: component
+kind:  component
 metadata:
   name: soundcheck.demo2
   description: Soundcheck Demo Component
