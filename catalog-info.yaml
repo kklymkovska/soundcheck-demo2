@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: soundcheck-demo2
+  name: soundcheck.demo2
   description: Soundcheck Demo Component
   annotations:
     pagerduty.com/integration-key: dsadsadsadsadsadsa
   tags:
     - internal
 spec:
-  type: website
+  type: service
   lifecycle: experimental
   owner: toast-infra
   system: soundcheck
