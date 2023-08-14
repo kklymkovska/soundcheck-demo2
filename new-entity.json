@@ -6,17 +6,6 @@
     "name": "Backstage.Demo.API",
     "description": "Demo APi for backstage\n",
   },
-  "relations": [
-    {
-      "type": "ownedBy",
-      "targetRef": "group:default/toast-infra",
-      "target": {
-        "kind": "group",
-        "namespace": "default",
-        "name": "toast-infra"
-      }
-    }
-  ],
   "spec": {
     "type": "service",
     "owner": "group:default/toast-infra",
