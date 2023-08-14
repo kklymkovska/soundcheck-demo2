@@ -1,0 +1,25 @@
+{
+  "apiVersion": "backstage.io/v1alpha1",
+  "kind": "Component",
+  "metadata": {
+    "namespace": "default",
+    "name": "Backstage.Demo.API",
+    "description": "Demo APi for backstage\n",
+  },
+  "relations": [
+    {
+      "type": "ownedBy",
+      "targetRef": "group:default/toast-infra",
+      "target": {
+        "kind": "group",
+        "namespace": "default",
+        "name": "toast-infra"
+      }
+    }
+  ],
+  "spec": {
+    "type": "service",
+    "owner": "group:default/toast-infra",
+    "lifecycle": "production"
+  }
+}
