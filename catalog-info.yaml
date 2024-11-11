@@ -6,9 +6,9 @@ metadata:
   annotations:
     pagerduty.com/integration-key: dsadsadsadsadsadsa
   tags:
-    - internal
+    - github
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: production
   owner: toast-infra
   system: soundcheck
