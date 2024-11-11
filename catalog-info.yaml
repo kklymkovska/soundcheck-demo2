@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: soundcheck.demo2
+  name: soundcheck.demo
   description: Soundcheck Demo Component
   annotations:
     pagerduty.com/integration-key: dsadsadsadsadsadsa
