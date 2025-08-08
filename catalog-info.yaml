@@ -6,7 +6,7 @@ metadata:
   annotations:
     pagerduty.com/integration-key: dsadsadsadsadsadsa
     # sonarqube.org/project-key: local-sq/test-project-key
-    sonarqube.org/project-key: test
+    sonarqube.org/project-key: local-sq/test
   tags:
     - github
 spec:
