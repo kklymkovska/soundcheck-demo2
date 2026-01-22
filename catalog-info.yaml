@@ -1,11 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: soundcheck.demo
-  description: Soundcheck Demo Component
+  name: background-processor
+  description: Background Processor
   annotations:
-    pagerduty.com/integration-key: dsadsadsadsadsadsa
-    sonarqube.org/project-key: local-sq/test-project-key
+    # pagerduty.com/service-id: P18JCJH
+    pagerduty.com/service-id: P9TSZZ5
+    pagerduty.com/integration-key: a47161262f244a92b04029c7a4a8e263
+    # sonarqube.org/project-key: test-project-key
+    sonarqube.org/organization-key: kklymkovska
+    sonarqube.org/project-key: kklymkovska_soundcheck-demo
+    # sonarqube.org/project-key: kklymkovska_soundcheck-demo-test
+    datadoghq.com/service-id: test-service-id
+    backstage.io/kubernetes-id: soundcheck-test-service
+    atlassian.net/jql: project = "TOAST" and status = "In Progress"
   tags:
     - github
 spec:
